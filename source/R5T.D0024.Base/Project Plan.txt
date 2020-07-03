@@ -1,0 +1,4 @@
+R5T.D0024.Base - A base definitions library for the IOSPlatformProvider service.
+
+Goals
+
