@@ -22,8 +22,8 @@ namespace R5T.D0024.Default
             {
                 return OSPlatform.Linux;
             }
-            
-            throw new Exception(@"Unknown operating system (not Windows, OSX, or Linux).");
+
+            throw Utilities.GetUnknownOSPlatformException();
         }
     }
 }
