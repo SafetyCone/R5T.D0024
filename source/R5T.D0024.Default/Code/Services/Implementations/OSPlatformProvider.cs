@@ -1,10 +1,10 @@
-﻿using System;
-using System.Runtime.InteropServices;
+using System;
+using System.Runtime.InteropServices;using R5T.T0064;
 
 
 namespace R5T.D0024.Default
-{
-    public class OSPlatformProvider : IOSPlatformProvider
+{[ServiceImplementationMarker]
+    public class OSPlatformProvider : IOSPlatformProvider,IServiceImplementation
     {
         public OSPlatform GetOSPlatform()
         {
